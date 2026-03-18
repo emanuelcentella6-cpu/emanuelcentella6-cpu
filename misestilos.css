@@ -1,0 +1,88 @@
+body{
+margin:0;
+font-family:'Segoe UI', sans-serif;
+background:linear-gradient(to bottom,#fff3e0,#ffe0b2);
+text-align:center;
+}
+
+header{
+background:linear-gradient(45deg,#ff6b00,#ffb300);
+color:white;
+padding:25px;
+font-size:26px;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+nav{
+background:#222;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+padding:12px 20px;
+background:#ff7a00;
+border-radius:30px;
+font-weight:bold;
+display:inline-block;
+transition:0.3s;
+}
+
+nav a:hover{
+background:#ffc107;
+transform:scale(1.1);
+}
+
+section{
+padding:40px 20px;
+}
+
+.imagen{
+width:220px;
+height:220px;
+object-fit:cover;
+border-radius:50%;
+border:6px solid #ff7a00;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+margin-top:20px;
+}
+
+.frase{
+font-size:20px;
+font-weight:bold;
+color:#e65100;
+margin-top:15px;
+}
+
+.card{
+background:white;
+margin:20px auto;
+padding:20px;
+width:80%;
+max-width:350px;
+border-radius:20px;
+box-shadow:0 6px 20px rgba(0,0,0,0.15);
+font-size:18px;
+}
+
+.boton{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:14px 25px;
+border-radius:15px;
+text-decoration:none;
+font-weight:bold;
+margin-top:20px;
+}
+
+footer{
+background:#222;
+color:white;
+padding:15px;
+margin-top:30px;
+}
+
